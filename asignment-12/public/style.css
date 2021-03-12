@@ -1,0 +1,372 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.link-ul ul{
+    height: 50px;
+    background-color: black;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.link-ul ul li{
+    float: left;
+    border-right: 2px solid silver;
+    line-height: 50px;
+}
+.link a{
+    display: block;
+    padding: 0 20px;
+    color: #ddd;
+    text-decoration: none;
+
+}
+.link a:hover{
+    cursor: pointer;
+    background-color: #d083cf;
+}
+/* ----------------------post---------------- */
+.post{
+    margin-top: 20px;
+    height: 600px ;
+    
+}
+.post-img{
+    height: 600px;
+    width: 900px;
+    background: url(images/post_img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+}
+.post-cont{
+    height: 600px;
+    width: 400px ;
+    overflow: auto;
+    float: right; 
+    margin-right: 230px;
+    
+}
+/* -----------------------post-left--------------- */
+h1{
+    background-color: black;
+    height: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+span{
+    background-color: #d083cf ;
+    height: 28px;
+    position: absolute;
+    left: 90px;
+    top: -12px;
+    padding: 8px 10px;
+    font-size: 24px;
+    letter-spacing: 2px ;
+}
+.post-cont ul,.bus-ul{
+ list-style: none;
+ font-size: 19px;
+}
+/* -------------------------------content---------------- */
+.post-cont{
+    overflow: auto;
+}
+
+/* ----------------bussiness------------------------------ */
+
+.main-left{
+    width: 900px;
+    height: 1400px;
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+ 
+}
+.bus-left{
+width: 410px;
+height: 1330px;
+margin-top: 20px;
+float: left;
+margin-left: 20px;
+}
+
+h2{
+        background-color: black;
+        height: 20px;
+        position: relative;
+       
+}
+h2 span{
+    left: 320px;
+    height: 24px;
+    width: 150px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    top: -9px;
+}
+.left{
+    width: 410px;
+    height: 450px;
+}
+#p-1{
+    font-size: 28px;
+}
+#p-1:hover{
+    color: #d083cf ;
+}
+#p-2{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.bus-left-1{
+    height: 870px;
+    width: 410px;
+    margin-top: 10px;
+}
+.bus-left-1 h1{
+    margin-top: 20px;
+    height: 22px;
+}
+#left-span{
+    left: 120px;
+    height: 24px;
+    width: 150px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    top: -9px;
+}
+.bus-ul li:hover{
+    color:#d083cf ;
+}
+
+
+/* ------------------------------right--------------------- */
+.bus-right{
+    width: 410px;
+    height: 1330px;
+    margin-top: 20px;
+    float:right;
+    margin-right: 20px;
+
+}
+.right{
+    width: 410px;
+    height: 450px;
+
+}
+.right ul{
+    list-style-type: none;
+    font-size: 17px;
+}
+.right ul li{
+    font-size: 22px;
+    
+}
+.right ul li:hover{
+    color: #d083cf  ;
+}
+#right-span{
+    left: 80px;
+    height: 24px;
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    top: -9px;
+}
+/* -------------------------------------------popular-------------------------- */
+
+#pop-span{
+    left: 90px;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    top: -9px;
+}
+
+/* ----------------------------------------------main-right---------------------------- */
+
+.main-right{
+    width: 410px;
+    height: 1400px;
+    float:right;
+    margin-top: 29px;
+    margin-right: 230px;
+   
+}
+.right-1{
+    width: 410px;
+    height: 450px;
+}
+.right-1 ul{
+    list-style-type: none;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.right-1 ul li{
+    font-size: 22px;
+    padding-top: 5px;
+}
+.right-1 ul li:hover{
+    color: #d083cf  ;
+}
+/* ---------------------------------rightbottom----------------------- */
+.side{
+    height: 200px;
+    width: 410px;
+    border: 1px solid navy;
+}
+.side ul li {
+    float: left;
+    border-left: 1px solid #fff;
+    font-size: 20px;
+    width: 135px;
+    text-align: center;
+    background-color: black;
+}
+.side ul{
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+}
+.side ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.side ul li:hover,#active{
+    background-color: #d083cf ;
+}
+h3{
+    margin-top: 20px;
+    height: 25px;
+    background-color: black;
+    position: relative;
+    font-size: 16px;
+}
+h3 span{
+    position: absolute;
+    top: -8px;
+    left: 110px;
+    line-height: 20px;
+    border-radius: 0%;
+    text-align: center;
+    height: 25px;
+}
+#bar{
+    width: 410px;
+    height: 50px;
+    background-color:#d083cf ;
+    font-size: 18px;
+    padding: 0px 30px;
+    margin-top: 10px;
+}
+#bar option{
+    margin: 3px 50px;
+    font-size: 18px;
+    color:#fff;
+}
+#links{
+    left: 150px;
+    height: 20px;
+    letter-spacing: 1px;
+    top: -7px;
+    font-size: 18px;
+}
+.cat ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.cat ul li {
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+}
+.cat ul li:hover{
+    color: #d083cf;
+    border-bottom: #d083cf 1px solid;
+}
+.cat h3{
+    height: 20px;
+    position: relative;
+}
+
+#cat-span{
+    left: 85px;
+    height: 20px;
+    width: 250px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    top: -7px;
+
+}
+.main{
+    height: 1400px;
+    width: 100%;
+ 
+    
+}
+/* ---------------------------------fotterrrrrrrrrrrr------------------- */
+.footer{
+    height: 500px;
+    width: 100%;
+    border: solid 1px black;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    padding: 0px 150px;
+    margin: 0px;
+}
+.first,.two,.thired{
+    width: 350px;
+    height: 400px;
+    border: 1px solid #ddd;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+hr{
+    margin-top: 10px;
+    height: 2px;
+    background-color: #ddd;
+}
+.two-ul li{
+    margin-top: 25px;
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    font-size: 16px;
+}
+.two-ul li:hover{
+    color: #d083cf;
+    border-bottom: 1px solid #d083cf ;
+}
+.para{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.head:hover{
+    color: #d083cf;
+}
+.copy-right{
+    height: 50px;
+    background-color: rgb(46, 43, 43);
+    text-align: center;
+}
+.copy-right p{
+    color: #fff;
+    padding-top: 15px;
+}
